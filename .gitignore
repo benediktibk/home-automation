@@ -1,0 +1,28 @@
+# KiCad
+fp-info-cache
+\#auto_saved_files#
+*.kicad_sch.lck
+*.kicad_pcb.lck
+**/*-backups/*
+
+# LTSpice
+*.log
+*.raw
+*.net
+*.plt
+
+# LibreOffice Calc
+.~lock.*
+
+# Zephyr
+software/zephyr
+software/modules
+
+# build directory
+software/build
+
+# Python
+software/.venv
+
+# FreeCAD
+*.FCStd1
