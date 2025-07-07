@@ -586,6 +586,14 @@
     [
       "d437a122-34d0-45ad-9f8d-028606a0e531",
       "Ethernet"
+    ],
+    [
+      "25aff908-c5f6-48d7-ac23-8c03b659b344",
+      "Fan"
+    ],
+    [
+      "52e996d4-b21e-4573-ad9a-52c1f39a7002",
+      "Measurement"
     ]
   ],
   "text_variables": {}

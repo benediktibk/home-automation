@@ -6,6 +6,82 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 130.81 53.34)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25aff908-c5f6-48d7-ac23-8c03b659b344")
+		(property "Sheetname" "Fan"
+			(at 130.81 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fan.kicad_sch"
+			(at 130.81 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "temperature-sensor"
+				(path "/3594a937-0ff5-42e2-8a8f-f816088f7574"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 52.07)
+		(size 25.4 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52e996d4-b21e-4573-ad9a-52c1f39a7002")
+		(property "Sheetname" "Measurement"
+			(at 195.58 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "measurement.kicad_sch"
+			(at 195.58 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "temperature-sensor"
+				(path "/3594a937-0ff5-42e2-8a8f-f816088f7574"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 118.11 106.68)
 		(size 24.13 16.51)
 		(fields_autoplaced yes)
