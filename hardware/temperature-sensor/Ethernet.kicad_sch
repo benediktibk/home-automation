@@ -3545,6 +3545,10 @@
 		(uuid "bcc2aaa3-e58f-4251-ad73-03b4aa09ddb0")
 	)
 	(no_connect
+		(at 34.29 97.79)
+		(uuid "f34d05be-4088-4cdc-8578-2711aa5a01ea")
+	)
+	(no_connect
 		(at 161.29 72.39)
 		(uuid "fb13dd84-5ede-4a67-bf68-6bdd374cea9f")
 	)
@@ -3757,6 +3761,16 @@
 			(type default)
 		)
 		(uuid "28961e33-6735-46ff-a972-8752d9d6e24f")
+	)
+	(wire
+		(pts
+			(xy 29.21 95.25) (xy 34.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e55eef-1595-4277-9967-0061b8ce4fee")
 	)
 	(wire
 		(pts
@@ -4797,6 +4811,17 @@
 			(justify left bottom)
 		)
 		(uuid "e218a954-0401-4462-a2c8-a7600e03ef5a")
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 29.21 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cc2ad29-9ac1-4ec9-828f-46dad0d687fb")
 	)
 	(hierarchical_label "TXD1"
 		(shape input)
