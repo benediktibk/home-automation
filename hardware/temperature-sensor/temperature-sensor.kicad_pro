@@ -594,6 +594,10 @@
     [
       "52e996d4-b21e-4573-ad9a-52c1f39a7002",
       "Measurement"
+    ],
+    [
+      "d1a68297-acfd-48f7-a4b7-32572ff73aec",
+      "Power over Ethernet"
     ]
   ],
   "text_variables": {}

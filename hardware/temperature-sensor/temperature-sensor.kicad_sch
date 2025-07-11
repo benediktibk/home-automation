@@ -120,6 +120,44 @@
 		)
 	)
 	(sheet
+		(at 172.72 134.62)
+		(size 25.4 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1a68297-acfd-48f7-a4b7-32572ff73aec")
+		(property "Sheetname" "Power over Ethernet"
+			(at 172.72 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_over_ethernet.kicad_sch"
+			(at 172.72 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "temperature-sensor"
+				(path "/3594a937-0ff5-42e2-8a8f-f816088f7574"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 182.88 101.6)
 		(size 27.94 15.24)
 		(fields_autoplaced yes)
