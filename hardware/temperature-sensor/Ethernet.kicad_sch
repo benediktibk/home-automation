@@ -3188,6 +3188,10 @@
 		(uuid "dc58a2ad-ee41-4869-9d19-558423b534e5")
 	)
 	(no_connect
+		(at 34.29 90.17)
+		(uuid "15f08375-2edd-4646-8451-f69bc4f28cec")
+	)
+	(no_connect
 		(at 255.27 72.39)
 		(uuid "2f2b31dc-1825-43da-b1b9-b660bcc5fa54")
 	)
@@ -3492,16 +3496,6 @@
 			(type default)
 		)
 		(uuid "37e59877-f270-4e4e-a3b1-ccdf3b791ea9")
-	)
-	(wire
-		(pts
-			(xy 29.21 90.17) (xy 34.29 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aae4461-d344-430e-8d74-4e013579a1cf")
 	)
 	(wire
 		(pts
@@ -4443,7 +4437,7 @@
 		)
 		(uuid "fff2bf1b-fbe8-4c5d-8dde-7f7696dc8cf2")
 	)
-	(hierarchical_label "CLK"
+	(hierarchical_label "25MHz"
 		(shape input)
 		(at 29.21 95.25 180)
 		(effects
@@ -4464,17 +4458,6 @@
 			(justify right)
 		)
 		(uuid "11c33042-a9df-4b7b-9e1e-8ff74d2a1635")
-	)
-	(hierarchical_label "REFCLK"
-		(shape output)
-		(at 29.21 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46bb8763-5bfa-4f95-89f1-4c74145ec659")
 	)
 	(hierarchical_label "TXEN"
 		(shape input)

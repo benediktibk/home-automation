@@ -598,6 +598,10 @@
     [
       "d1a68297-acfd-48f7-a4b7-32572ff73aec",
       "Power over Ethernet"
+    ],
+    [
+      "9881a2ce-1b82-40d3-a127-b2a01adb81e6",
+      "USB"
     ]
   ],
   "text_variables": {}
