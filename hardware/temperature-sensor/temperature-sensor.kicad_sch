@@ -277,6 +277,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 107.95) (xy 143.51 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea034a7f-2f57-4006-b2bf-21bcc17dc96f")
+	)
+	(wire
+		(pts
+			(xy 193.04 33.02) (xy 199.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf17ea3-55fd-4e81-acfb-ab9fbae2d2ca")
+	)
+	(wire
+		(pts
 			(xy 137.16 71.12) (xy 142.24 71.12)
 		)
 		(stroke
@@ -305,6 +325,26 @@
 		)
 		(uuid "f1b84b49-c2da-4401-8606-8e7fcebdee86")
 	)
+	(wire
+		(pts
+			(xy 137.16 105.41) (xy 143.51 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa08ba7-7f26-412d-86c0-c2d07c05ee96")
+	)
+	(label "12V"
+		(at 137.16 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0991d808-98db-4034-8cd1-a711ac3145a6")
+	)
 	(label "3V3"
 		(at 137.16 71.12 0)
 		(effects
@@ -324,6 +364,16 @@
 			(justify left bottom)
 		)
 		(uuid "362f01a2-8ca0-48c1-a3d7-a3f7450cb8b8")
+	)
+	(label "12V"
+		(at 199.39 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84b9ae7e-c46e-40c1-b900-972ce9c4f81b")
 	)
 	(label "3V3"
 		(at 137.16 88.9 0)
@@ -346,6 +396,16 @@
 		(uuid "aab34fe0-0b2b-4f47-8233-a42340b045cb")
 	)
 	(label "3V3"
+		(at 137.16 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c27d00df-dec4-4bba-aebe-663f3574bbda")
+	)
+	(label "3V3"
 		(at 199.39 30.48 0)
 		(effects
 			(font
@@ -356,8 +416,8 @@
 		(uuid "c3643242-7040-4535-9ef5-42a2e4615e56")
 	)
 	(sheet
-		(at 81.28 118.11)
-		(size 29.21 19.05)
+		(at 143.51 102.87)
+		(size 12.7 12.7)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -367,7 +427,7 @@
 		)
 		(uuid "25aff908-c5f6-48d7-ac23-8c03b659b344")
 		(property "Sheetname" "Fan"
-			(at 82.042 116.84 0)
+			(at 144.272 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,13 +436,53 @@
 			)
 		)
 		(property "Sheetfile" "fan.kicad_sch"
-			(at 81.28 137.7446 0)
+			(at 143.764 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "12V" input
+			(at 143.51 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f7ff6eac-1796-449b-88f2-d774d34360e6")
+		)
+		(pin "PWM" input
+			(at 143.51 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ee11c5e4-9121-434e-834b-4f54e122b01e")
+		)
+		(pin "TACH" output
+			(at 143.51 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52d31e91-9ebe-46bf-a891-2e8ca4db50c4")
+		)
+		(pin "3V3" input
+			(at 143.51 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "25264ff9-c144-4d21-bf14-16542ef7672e")
 		)
 		(instances
 			(project "temperature-sensor"
@@ -785,6 +885,16 @@
 				(justify left)
 			)
 			(uuid "c7774b28-40b6-4ab9-8b1d-21421add17bd")
+		)
+		(pin "12V" output
+			(at 193.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ac133257-3875-471a-9e9c-7d492282fd03")
 		)
 		(instances
 			(project "temperature-sensor"
