@@ -57,6 +57,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 77.47) (xy 105.41 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b91903e-1624-4b05-b0ed-72c2c98a7509")
+	)
+	(wire
+		(pts
 			(xy 76.2 30.48) (xy 82.55 30.48)
 		)
 		(stroke
@@ -187,6 +197,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 110.49) (xy 118.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cdee08-bf43-46cb-ba41-ca9dd72b72b8")
+	)
+	(wire
+		(pts
 			(xy 120.65 93.98) (xy 120.65 68.58)
 		)
 		(stroke
@@ -257,6 +277,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 74.93) (xy 105.41 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63030d3-084c-4c8c-93fa-b8cf498da78b")
+	)
+	(wire
+		(pts
 			(xy 168.91 30.48) (xy 177.8 30.48)
 		)
 		(stroke
@@ -267,6 +297,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 113.03) (xy 115.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0d64a7-9131-4026-810d-a7f06697721b")
+	)
+	(wire
+		(pts
 			(xy 105.41 64.77) (xy 125.73 64.77)
 		)
 		(stroke
@@ -274,6 +314,16 @@
 			(type default)
 		)
 		(uuid "db98899c-cb6c-4caa-af5c-31bc0d60b9af")
+	)
+	(wire
+		(pts
+			(xy 118.11 110.49) (xy 118.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5ffc19-f6cf-48e2-a3b5-e0a60059c301")
 	)
 	(wire
 		(pts
@@ -324,6 +374,16 @@
 			(type default)
 		)
 		(uuid "f1b84b49-c2da-4401-8606-8e7fcebdee86")
+	)
+	(wire
+		(pts
+			(xy 115.57 113.03) (xy 115.57 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f609536e-e953-4abe-9c43-dff636f734b9")
 	)
 	(wire
 		(pts
@@ -630,7 +690,7 @@
 	)
 	(sheet
 		(at 82.55 27.94)
-		(size 22.86 50.8)
+		(size 22.86 52.07)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -650,7 +710,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 82.55 79.3246 0)
+			(at 82.55 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,6 +877,26 @@
 				(justify right)
 			)
 			(uuid "feddfd3d-943f-4ce3-90ac-a576a4b0c75a")
+		)
+		(pin "FAN_PWM" output
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "713d9fd0-6a15-4d1c-a9a3-5829780484b2")
+		)
+		(pin "FAN_TACH" input
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec1c0507-c81c-4e3e-b8bd-2a9a6e94999c")
 		)
 		(instances
 			(project "temperature-sensor"
