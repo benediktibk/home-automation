@@ -5231,11 +5231,11 @@
 				)
 			)
 		)
-		(symbol "benediktibk:TS02-66-50-BK-100-SCR-D"
+		(symbol "benediktibk:TS04-66-73-BK-100-SMT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
+			(property "Reference" "S"
 				(at 26.67 7.62 0)
 				(effects
 					(font
@@ -5244,7 +5244,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "TS02-66-50-BK-100-SCR-D"
+			(property "Value" "TS04-66-73-BK-100-SMT"
 				(at 26.67 5.08 0)
 				(effects
 					(font
@@ -5253,7 +5253,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "benediktibk:TS026650BK100SCRD"
+			(property "Footprint" "benediktibk:TS046673BK100SMT"
 				(at 26.67 -94.92 0)
 				(effects
 					(font
@@ -5263,7 +5263,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/ts02.pdf"
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
 				(at 26.67 -194.92 0)
 				(effects
 					(font
@@ -5273,8 +5273,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "6 x 6 mm, 5 mm Actuator Height, 100 gf, Black, Short Crimped, Through Hole, SPST, Tactile Switch"
-				(at 0 0 0)
+			(property "Description" "6 x 6 mm, 7.3 mm Actuator Height, 100 gf, Black, Surface Mount, SPST, Tactile Switch"
+				(at -0.254 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5282,7 +5282,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "5.2"
+			(property "Height" "7.6"
 				(at 26.67 -394.92 0)
 				(effects
 					(font
@@ -5292,7 +5292,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "179-TS026650BK100SCR"
+			(property "Mouser Part Number" "179-TS046673BK100SMT"
 				(at 26.67 -494.92 0)
 				(effects
 					(font
@@ -5302,10 +5302,40 @@
 					(hide yes)
 				)
 			)
-			(symbol "TS02-66-50-BK-100-SCR-D_1_1"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TS04-66-73-BK-100-SMT?qs=A6eO%252BMLsxmRAmp3wqRUzZw%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Same Sky"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TS04-66-73-BK-100-SMT"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TS04-66-73-BK-100-SMT_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 25.4 -5.08)
+					(end 18.796 -4.826)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5333,9 +5363,9 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 0 180)
+					(at 0 -2.54 0)
 					(length 5.08)
-					(name "NO_2"
+					(name "COM_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5351,9 +5381,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 24.13 0 180)
 					(length 5.08)
-					(name "COM_1"
+					(name "NO_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5369,7 +5399,7 @@
 					)
 				)
 				(pin passive line
-					(at 30.48 -2.54 180)
+					(at 24.13 -2.54 180)
 					(length 5.08)
 					(name "COM_2"
 						(effects
@@ -5504,6 +5534,12 @@
 		(uuid "0e768cbf-d4aa-4bdc-b6bc-31763ff775c5")
 	)
 	(junction
+		(at 261.62 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16044749-667f-4504-b5c8-cf3067e0edaf")
+	)
+	(junction
 		(at 180.34 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5514,6 +5550,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19831722-6e24-4f7e-bf4e-194bc3da0eb0")
+	)
+	(junction
+		(at 269.24 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1be4e085-c3a2-481a-9b8f-5082be2a9d9b")
 	)
 	(junction
 		(at 109.22 15.24)
@@ -5534,10 +5576,16 @@
 		(uuid "2ba9ca69-961b-42c0-9287-b2067d5c3ce5")
 	)
 	(junction
-		(at 252.73 39.37)
+		(at 246.38 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "320f3141-8859-4129-b301-9bfb638b967c")
+	)
+	(junction
+		(at 261.62 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32f61fd5-9a75-456a-8f95-23a3098c8a05")
 	)
 	(junction
 		(at 257.81 144.78)
@@ -5618,7 +5666,7 @@
 		(uuid "4b70f30c-fac2-47fa-8b6a-68e2f960f9e7")
 	)
 	(junction
-		(at 245.11 54.61)
+		(at 238.76 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "531bacc6-66f3-49c1-976a-9991d906e7ca")
@@ -5690,10 +5738,16 @@
 		(uuid "9ca77df9-a432-48f6-a85f-654fcfb0416c")
 	)
 	(junction
-		(at 252.73 54.61)
+		(at 246.38 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9dd6a9f-eb4d-4cb0-9e87-b8947bda623c")
+	)
+	(junction
+		(at 269.24 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adabe548-7c79-4f6e-b607-6440c2931b67")
 	)
 	(junction
 		(at 191.77 77.47)
@@ -5708,7 +5762,7 @@
 		(uuid "bd46c413-6eb6-4668-9027-16cd613c3877")
 	)
 	(junction
-		(at 245.11 39.37)
+		(at 238.76 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce8e9c71-da28-416f-ad25-b968b25be23e")
@@ -5867,6 +5921,26 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 78.74) (xy 261.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b718b05-d631-4ff4-a5e6-cd57d9bf5a62")
+	)
+	(wire
+		(pts
+			(xy 269.24 78.74) (xy 269.24 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd2162c-1203-4128-831e-3fce52f0c704")
+	)
+	(wire
+		(pts
 			(xy 106.68 186.69) (xy 106.68 189.23)
 		)
 		(stroke
@@ -5927,7 +6001,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 17.78) (xy 252.73 21.59)
+			(xy 246.38 17.78) (xy 246.38 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6007,7 +6081,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 49.53) (xy 252.73 54.61)
+			(xy 246.38 49.53) (xy 246.38 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6067,7 +6141,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 39.37) (xy 245.11 46.99)
+			(xy 238.76 39.37) (xy 238.76 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6084,6 +6158,16 @@
 			(type default)
 		)
 		(uuid "1c415692-6353-49cb-b055-acedf9ead719")
+	)
+	(wire
+		(pts
+			(xy 273.05 78.74) (xy 269.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c71d891-d038-4df3-942b-2216db87a2fd")
 	)
 	(wire
 		(pts
@@ -6187,7 +6271,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 49.53) (xy 245.11 54.61)
+			(xy 238.76 49.53) (xy 238.76 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6207,6 +6291,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 88.9) (xy 237.49 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3302ff72-ac1e-4a1a-820c-97076cb5c562")
+	)
+	(wire
+		(pts
 			(xy 146.05 26.67) (xy 146.05 29.21)
 		)
 		(stroke
@@ -6217,7 +6311,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 54.61) (xy 245.11 54.61)
+			(xy 214.63 54.61) (xy 238.76 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6247,6 +6341,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 57.15) (xy 269.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c52bf67-cf5a-415e-9562-902d109a0cd0")
+	)
+	(wire
+		(pts
 			(xy 106.68 189.23) (xy 106.68 190.5)
 		)
 		(stroke
@@ -6264,6 +6368,16 @@
 			(type default)
 		)
 		(uuid "3d062358-dfc7-4291-be09-c6734d0569f7")
+	)
+	(wire
+		(pts
+			(xy 261.62 93.98) (xy 269.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d0b3229-2e3f-4ec5-88e4-e4a6b9e479ff")
 	)
 	(wire
 		(pts
@@ -6327,6 +6441,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 93.98) (xy 261.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401cbbb9-81bb-4f1e-a811-fd7638229280")
+	)
+	(wire
+		(pts
 			(xy 129.54 128.27) (xy 138.43 128.27)
 		)
 		(stroke
@@ -6334,6 +6458,16 @@
 			(type default)
 		)
 		(uuid "40310ddd-bbe1-4516-955a-b53b472dae65")
+	)
+	(wire
+		(pts
+			(xy 237.49 78.74) (xy 237.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40817f4b-a52b-4000-84b7-027e9eaac5db")
 	)
 	(wire
 		(pts
@@ -6347,7 +6481,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 54.61) (xy 252.73 54.61)
+			(xy 238.76 54.61) (xy 246.38 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6437,7 +6571,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 29.21) (xy 252.73 39.37)
+			(xy 246.38 29.21) (xy 246.38 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6504,6 +6638,16 @@
 			(type default)
 		)
 		(uuid "60cfba42-f19f-467b-8b92-a83085bdf3a0")
+	)
+	(wire
+		(pts
+			(xy 269.24 68.58) (xy 269.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618bf5c2-82f1-4702-804e-cb3dfa4d76bc")
 	)
 	(wire
 		(pts
@@ -6747,6 +6891,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 88.9) (xy 261.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b57768-ab4b-4599-a3b2-258eec286b68")
+	)
+	(wire
+		(pts
 			(xy 185.42 76.2) (xy 185.42 87.63)
 		)
 		(stroke
@@ -6777,7 +6931,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 39.37) (xy 252.73 41.91)
+			(xy 246.38 39.37) (xy 246.38 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6817,7 +6971,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 39.37) (xy 245.11 39.37)
+			(xy 214.63 39.37) (xy 238.76 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7267,7 +7421,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 54.61) (xy 252.73 57.15)
+			(xy 246.38 54.61) (xy 246.38 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7287,13 +7441,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 39.37) (xy 252.73 39.37)
+			(xy 238.76 39.37) (xy 246.38 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c9b97fc3-83dc-413d-9c52-51859dbb2f3b")
+	)
+	(wire
+		(pts
+			(xy 269.24 88.9) (xy 269.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0f9f06-88ec-4d43-b075-c04f7a50669f")
 	)
 	(wire
 		(pts
@@ -7377,6 +7541,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 93.98) (xy 269.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3dfd468-2156-4ee3-b5fa-6f828bc52513")
+	)
+	(wire
+		(pts
 			(xy 129.54 57.15) (xy 137.16 57.15)
 		)
 		(stroke
@@ -7407,7 +7581,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 39.37) (xy 252.73 39.37)
+			(xy 250.19 39.37) (xy 246.38 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7517,6 +7691,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 78.74) (xy 261.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f16017-fa9c-4a52-a256-4aa514509737")
+	)
+	(wire
+		(pts
 			(xy 114.3 36.83) (xy 114.3 44.45)
 		)
 		(stroke
@@ -7544,6 +7728,16 @@
 			(type default)
 		)
 		(uuid "f48b539f-d9e9-4508-b627-751e56b81c88")
+	)
+	(wire
+		(pts
+			(xy 129.54 74.93) (xy 137.16 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f519b3e0-29ce-4a65-9962-db31662175e2")
 	)
 	(wire
 		(pts
@@ -7587,6 +7781,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 78.74) (xy 269.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab051a8-1362-43de-be4e-61ba24fd4733")
+	)
+	(wire
+		(pts
 			(xy 132.08 36.83) (xy 127 36.83)
 		)
 		(stroke
@@ -7624,6 +7828,16 @@
 			(justify left bottom)
 		)
 		(uuid "153a874d-bc70-482c-ba52-2256ea6246bd")
+	)
+	(label "CONNECT"
+		(at 137.16 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1da405ab-4e3f-46ac-940d-54df151792ff")
 	)
 	(label "LED3"
 		(at 251.46 144.78 0)
@@ -7726,7 +7940,7 @@
 		(uuid "681d1104-feea-4e69-a4a8-ab5b402a8b27")
 	)
 	(label "3V3"
-		(at 252.73 17.78 0)
+		(at 246.38 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7785,6 +7999,16 @@
 		)
 		(uuid "b85eabc5-887b-4155-a89e-dd53ef3a9bbd")
 	)
+	(label "CONNECT"
+		(at 273.05 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b928f5a9-fdc5-4c74-9ff3-9f35535eceb9")
+	)
 	(label "NRST"
 		(at 78.74 52.07 0)
 		(effects
@@ -7826,7 +8050,7 @@
 		(uuid "ea8c5ff4-c752-4152-acfd-743e3f824856")
 	)
 	(label "NRST"
-		(at 256.54 39.37 0)
+		(at 250.19 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7844,6 +8068,16 @@
 			(justify left bottom)
 		)
 		(uuid "f63ecccf-4b7d-47ea-bb62-75eb148e57d0")
+	)
+	(label "3V3"
+		(at 269.24 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc743bdd-7ab9-4734-88d8-65052017b9d4")
 	)
 	(hierarchical_label "FAN_PWM"
 		(shape output)
@@ -8840,7 +9074,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 57.15 0)
+		(at 246.38 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8849,7 +9083,7 @@
 		(fields_autoplaced yes)
 		(uuid "20aabb48-79ad-4622-a938-10364ab1ff28")
 		(property "Reference" "#PWR58"
-			(at 252.73 63.5 0)
+			(at 246.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +9092,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 62.23 0)
+			(at 246.38 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,7 +9100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 57.15 0)
+			(at 246.38 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8875,7 +9109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 57.15 0)
+			(at 246.38 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +9118,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 57.15 0)
+			(at 246.38 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11062,6 +11296,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 269.24 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "703dfc42-cc8e-446d-9482-d181cfc02a64")
+		(property "Reference" "#PWR64"
+			(at 269.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ce93908-9113-4904-a83a-502ab7de9d25")
+		)
+		(instances
+			(project "temperature-sensor"
+				(path "/3594a937-0ff5-42e2-8a8f-f816088f7574/a0d45ccb-d615-45f4-a839-39b8e4e3dcc0"
+					(reference "#PWR64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "benediktibk:R_100Ohm_SMD_0603_100mW_1%")
 		(at 269.24 133.35 0)
 		(unit 1)
@@ -11144,101 +11444,6 @@
 			(project "temperature-sensor"
 				(path "/3594a937-0ff5-42e2-8a8f-f816088f7574/a0d45ccb-d615-45f4-a839-39b8e4e3dcc0"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:TS02-66-50-BK-100-SCR-D")
-		(at 214.63 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71f4af56-0a14-4c30-b403-6f2526bb67d8")
-		(property "Reference" "IC5"
-			(at 226.06 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RESET"
-			(at 234.95 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "benediktibk:TS026650BK100SCRD"
-			(at 241.3 141.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/ts02.pdf"
-			(at 241.3 241.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "6 x 6 mm, 5 mm Actuator Height, 100 gf, Black, Short Crimped, Through Hole, SPST, Tactile Switch"
-			(at 214.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "5.2"
-			(at 241.3 441.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "179-TS026650BK100SCR"
-			(at 241.3 541.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f146028-6f4d-4b91-b19f-50db26d8a31e")
-		)
-		(pin "2"
-			(uuid "b9ceb2c7-0894-4afe-a741-2a777edcfa4d")
-		)
-		(pin "4"
-			(uuid "f0d23695-8bc5-4271-a4fd-0e46403c7c30")
-		)
-		(pin "3"
-			(uuid "d56f33dd-50b8-4a56-80da-c2765f245831")
-		)
-		(instances
-			(project "temperature-sensor"
-				(path "/3594a937-0ff5-42e2-8a8f-f816088f7574/a0d45ccb-d615-45f4-a839-39b8e4e3dcc0"
-					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -11789,6 +11994,220 @@
 		)
 	)
 	(symbol
+		(lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%")
+		(at 269.24 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c62bad1-f94d-4a3b-8429-28fb7f3c5b48")
+		(property "Reference" "R40"
+			(at 271.78 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kOhm"
+			(at 271.78 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 259.08 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 269.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS order number" "125-1173"
+			(at 251.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
+			(at 251.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e07c5b40-405c-43a2-b46c-d0d25e9734f5")
+		)
+		(pin "2"
+			(uuid "30f833b0-95ac-45e2-8e66-f4af97aaa679")
+		)
+		(instances
+			(project "temperature-sensor"
+				(path "/3594a937-0ff5-42e2-8a8f-f816088f7574/a0d45ccb-d615-45f4-a839-39b8e4e3dcc0"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:TS04-66-73-BK-100-SMT")
+		(at 237.49 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ffa591f-ec45-4dea-97a0-940894fc61ab")
+		(property "Reference" "S2"
+			(at 249.4915 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RESET"
+			(at 249.4915 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "benediktibk:TS046673BK100SMT"
+			(at 264.16 181.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 264.16 281.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "6 x 6 mm, 7.3 mm Actuator Height, 100 gf, Black, Surface Mount, SPST, Tactile Switch"
+			(at 237.236 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.6"
+			(at 264.16 481.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "179-TS046673BK100SMT"
+			(at 264.16 581.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TS04-66-73-BK-100-SMT?qs=A6eO%252BMLsxmRAmp3wqRUzZw%3D%3D"
+			(at 264.16 681.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 264.16 781.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TS04-66-73-BK-100-SMT"
+			(at 264.16 881.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a956b8c6-25b2-455a-a94e-9e8816ad83ef")
+		)
+		(pin "4"
+			(uuid "18c161a8-d6b7-41f4-ba95-537aac80e830")
+		)
+		(pin "2"
+			(uuid "aa5d1194-d219-484c-b652-122b238e77f4")
+		)
+		(pin "1"
+			(uuid "722c1fd6-5985-4f39-9608-4698abeeb0cf")
+		)
+		(instances
+			(project "temperature-sensor"
+				(path "/3594a937-0ff5-42e2-8a8f-f816088f7574/a0d45ccb-d615-45f4-a839-39b8e4e3dcc0"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 146.05 29.21 0)
 		(unit 1)
@@ -11849,6 +12268,94 @@
 			(project "temperature-sensor"
 				(path "/3594a937-0ff5-42e2-8a8f-f816088f7574/a0d45ccb-d615-45f4-a839-39b8e4e3dcc0"
 					(reference "#PWR52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:C_100nF_SMD_0603_50V")
+		(at 269.24 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "927ebc58-4936-4fbf-ad7f-30ca15e6fd8d")
+		(property "Reference" "C49"
+			(at 273.05 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 273.05 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 270.2052 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 269.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS order number" "242-7372"
+			(at 286.766 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
+			(at 286.766 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fd3b83c-6760-4711-967e-14dd75b7ee95")
+		)
+		(pin "2"
+			(uuid "3ac00210-ecb7-46ac-b077-ef5336fbcd36")
+		)
+		(instances
+			(project "temperature-sensor"
+				(path "/3594a937-0ff5-42e2-8a8f-f816088f7574/a0d45ccb-d615-45f4-a839-39b8e4e3dcc0"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -12718,7 +13225,7 @@
 	)
 	(symbol
 		(lib_id "benediktibk:C_100nF_SMD_0603_50V")
-		(at 252.73 45.72 0)
+		(at 246.38 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12727,7 +13234,7 @@
 		(fields_autoplaced yes)
 		(uuid "c602628b-393a-43ac-8aca-4846a8d6b449")
 		(property "Reference" "C47"
-			(at 256.54 44.4499 0)
+			(at 250.19 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12736,7 +13243,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 256.54 46.9899 0)
+			(at 250.19 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12745,7 +13252,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 253.6952 49.53 0)
+			(at 247.3452 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12754,7 +13261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 45.72 0)
+			(at 246.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12763,7 +13270,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 252.73 45.72 0)
+			(at 246.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12772,7 +13279,7 @@
 			)
 		)
 		(property "RS order number" "242-7372"
-			(at 270.256 44.45 0)
+			(at 263.906 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12781,7 +13288,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-KGM15BR71H104KM"
-			(at 270.256 44.45 0)
+			(at 263.906 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12959,7 +13466,7 @@
 	)
 	(symbol
 		(lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%")
-		(at 252.73 25.4 0)
+		(at 246.38 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12968,7 +13475,7 @@
 		(fields_autoplaced yes)
 		(uuid "d57aa3b4-587e-4d70-84fd-28bb555f3a01")
 		(property "Reference" "R30"
-			(at 255.27 24.1299 0)
+			(at 248.92 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12977,7 +13484,7 @@
 			)
 		)
 		(property "Value" "10kOhm"
-			(at 255.27 26.6699 0)
+			(at 248.92 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12986,7 +13493,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 242.57 24.892 90)
+			(at 236.22 24.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12995,7 +13502,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 25.4 0)
+			(at 246.38 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13004,7 +13511,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 252.73 25.4 0)
+			(at 246.38 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13013,7 +13520,7 @@
 			)
 		)
 		(property "RS order number" "125-1173"
-			(at 234.95 24.13 0)
+			(at 228.6 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13022,7 +13529,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
-			(at 234.95 24.13 0)
+			(at 228.6 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13259,6 +13766,132 @@
 			(project "temperature-sensor"
 				(path "/3594a937-0ff5-42e2-8a8f-f816088f7574/a0d45ccb-d615-45f4-a839-39b8e4e3dcc0"
 					(reference "#PWR60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:TS04-66-73-BK-100-SMT")
+		(at 214.63 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbe5857a-5fb1-4d30-a2e4-3bf2a0cd2a7a")
+		(property "Reference" "S1"
+			(at 226.6315 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RESET"
+			(at 226.6315 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "benediktibk:TS046673BK100SMT"
+			(at 241.3 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 241.3 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "6 x 6 mm, 7.3 mm Actuator Height, 100 gf, Black, Surface Mount, SPST, Tactile Switch"
+			(at 214.376 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.6"
+			(at 241.3 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "179-TS046673BK100SMT"
+			(at 241.3 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TS04-66-73-BK-100-SMT?qs=A6eO%252BMLsxmRAmp3wqRUzZw%3D%3D"
+			(at 241.3 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 241.3 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TS04-66-73-BK-100-SMT"
+			(at 241.3 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f76939d3-f579-4e1b-8ee7-bc45599a9576")
+		)
+		(pin "4"
+			(uuid "0c9ce242-275c-4929-ad8d-ff1d56e8c486")
+		)
+		(pin "2"
+			(uuid "e2b84776-1581-46fd-ae2f-1f2a8efe2fb3")
+		)
+		(pin "1"
+			(uuid "0a2c4c9b-1e98-4c22-86d5-9ae78d1980fd")
+		)
+		(instances
+			(project ""
+				(path "/3594a937-0ff5-42e2-8a8f-f816088f7574/a0d45ccb-d615-45f4-a839-39b8e4e3dcc0"
+					(reference "S1")
 					(unit 1)
 				)
 			)
