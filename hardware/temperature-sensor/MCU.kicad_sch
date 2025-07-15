@@ -12327,7 +12327,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "CONNECT"
 			(at 249.4915 81.28 0)
 			(effects
 				(font
