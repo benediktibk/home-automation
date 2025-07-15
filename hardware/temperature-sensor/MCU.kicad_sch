@@ -5814,6 +5814,10 @@
 		(uuid "074a5b61-c3e0-408c-be68-049adff5f410")
 	)
 	(no_connect
+		(at 129.54 62.23)
+		(uuid "08d6f028-69d4-433e-a727-b3b26be06b5f")
+	)
+	(no_connect
 		(at 129.54 176.53)
 		(uuid "0c6cb293-6189-49db-8e96-cf902305b190")
 	)
@@ -5854,16 +5858,8 @@
 		(uuid "31bf6683-ba55-41b7-b2b1-c385befd9c19")
 	)
 	(no_connect
-		(at 129.54 130.81)
-		(uuid "336d02b0-2a26-4cee-b192-1ee9cde1dfaf")
-	)
-	(no_connect
 		(at 129.54 161.29)
 		(uuid "356f0624-8e46-49da-aeee-901fc4aa0f5e")
-	)
-	(no_connect
-		(at 83.82 138.43)
-		(uuid "395c0f05-72c3-46a9-b287-c59f780fa790")
 	)
 	(no_connect
 		(at 129.54 173.99)
@@ -5898,8 +5894,8 @@
 		(uuid "5efe14b1-c35f-494e-8245-0371131d7100")
 	)
 	(no_connect
-		(at 129.54 133.35)
-		(uuid "684b7181-08c9-434b-a6b6-274011081528")
+		(at 129.54 74.93)
+		(uuid "615e7610-8c6c-47cd-9853-1cf51c00b6ee")
 	)
 	(no_connect
 		(at 129.54 158.75)
@@ -5922,8 +5918,8 @@
 		(uuid "73c1dfc3-2043-4bb3-b114-4738925753db")
 	)
 	(no_connect
-		(at 83.82 80.01)
-		(uuid "7c06385b-6827-4911-8c08-49003da41360")
+		(at 129.54 64.77)
+		(uuid "73dcfa7a-97c9-4c72-a0e7-cdfc2e41e506")
 	)
 	(no_connect
 		(at 129.54 153.67)
@@ -5960,6 +5956,10 @@
 	(no_connect
 		(at 129.54 143.51)
 		(uuid "b5c25ed1-76d3-4331-a366-be9ad27379a5")
+	)
+	(no_connect
+		(at 129.54 59.69)
+		(uuid "ba205ef9-f1d0-4b3d-bd80-fd40c243dca0")
 	)
 	(no_connect
 		(at 83.82 146.05)
@@ -6249,16 +6249,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 62.23) (xy 137.16 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1362bc53-0ac3-4d0f-a218-66321083b81a")
-	)
-	(wire
-		(pts
 			(xy 106.68 24.13) (xy 106.68 15.24)
 		)
 		(stroke
@@ -6326,6 +6316,16 @@
 			(type default)
 		)
 		(uuid "15a34903-e663-4cc6-be9c-2e0ef0aca9c2")
+	)
+	(wire
+		(pts
+			(xy 73.66 80.01) (xy 83.82 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1637ac64-dcd3-45d3-b6cd-9b6863f2a110")
 	)
 	(wire
 		(pts
@@ -6879,6 +6879,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 138.43) (xy 83.82 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c78bce-bb87-4f9c-9be0-f82386c11cdf")
+	)
+	(wire
+		(pts
 			(xy 269.24 137.16) (xy 269.24 139.7)
 		)
 		(stroke
@@ -6916,6 +6926,16 @@
 			(type default)
 		)
 		(uuid "6383c3d5-ff45-4457-a76c-53ff4fd41d69")
+	)
+	(wire
+		(pts
+			(xy 129.54 130.81) (xy 138.43 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fb1a3b-a8ce-4f59-8154-be8987fb3033")
 	)
 	(wire
 		(pts
@@ -7036,16 +7056,6 @@
 			(type default)
 		)
 		(uuid "7c24a0b9-4c97-4fbd-b36a-f8dd244900b6")
-	)
-	(wire
-		(pts
-			(xy 129.54 59.69) (xy 137.16 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c6b4c7b-1583-4efd-afc5-ba063e382499")
 	)
 	(wire
 		(pts
@@ -7319,6 +7329,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 133.35) (xy 138.43 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f425b6d-f8cd-4970-87d2-1b65df7d442d")
+	)
+	(wire
+		(pts
 			(xy 17.78 90.17) (xy 17.78 93.98)
 		)
 		(stroke
@@ -7386,16 +7406,6 @@
 			(type default)
 		)
 		(uuid "a1d1c28d-c68b-42b3-bb85-b98855107004")
-	)
-	(wire
-		(pts
-			(xy 129.54 64.77) (xy 137.16 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2efece5-821e-4e10-a9cf-642c89dbbac4")
 	)
 	(wire
 		(pts
@@ -7959,16 +7969,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 74.93) (xy 137.16 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f519b3e0-29ce-4a65-9962-db31662175e2")
-	)
-	(wire
-		(pts
 			(xy 129.54 85.09) (xy 135.89 85.09)
 		)
 		(stroke
@@ -8058,7 +8058,7 @@
 		(uuid "153a874d-bc70-482c-ba52-2256ea6246bd")
 	)
 	(label "CONNECT"
-		(at 137.16 74.93 0)
+		(at 73.66 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8088,7 +8088,7 @@
 		(uuid "2a5c1535-c641-4d9c-960c-53c92a9aff28")
 	)
 	(label "LED2"
-		(at 137.16 62.23 0)
+		(at 138.43 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8098,7 +8098,7 @@
 		(uuid "2a6ce8a6-acdd-4595-8643-f1d64ba2d7f4")
 	)
 	(label "LED3"
-		(at 137.16 64.77 0)
+		(at 138.43 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8288,7 +8288,7 @@
 		(uuid "f0d9069e-8961-4c50-bc27-c9e1ed420251")
 	)
 	(label "LED1"
-		(at 137.16 59.69 0)
+		(at 74.93 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
