@@ -2334,6 +2334,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "603-AC0603FR-1347RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -4655,6 +4664,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-AC0603FR-1347RL"
+			(at 129.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "602a02be-d852-494f-afa2-e1d95dde1dda")
 		)
@@ -4813,6 +4831,15 @@
 		)
 		(property "RS order number" "901-3513"
 			(at 77.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-1347RL"
+			(at 95.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,6 +6259,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-AC0603FR-1347RL"
+			(at 106.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8307d8b6-6468-43be-922e-0da41fa6f6a1")
 		)
@@ -7225,6 +7261,15 @@
 		)
 		(property "RS order number" "901-3513"
 			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-1347RL"
+			(at 118.11 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

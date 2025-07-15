@@ -2983,7 +2983,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part No" "511-STM32F407VGT6TR"
+			(property "Mouser Part Number" "511-STM32F407VGT6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10781,7 +10781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part No" "511-STM32F407VGT6TR"
+		(property "Mouser Part Number" "511-STM32F407VGT6"
 			(at 106.68 115.57 0)
 			(effects
 				(font
