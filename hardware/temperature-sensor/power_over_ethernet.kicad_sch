@@ -2073,7 +2073,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "303-0603SAF2492T5E"
+			(property "Mouser Part Number" "594-MCT06030C2492FP5"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -2160,22 +2160,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R13"
-				(at 2.54 2.5401 0)
+			(property "Reference" "R"
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "33kOhm"
-				(at 2.54 0.0001 0)
+			(property "Value" "R_33kOhm_SMD_0603_100mW_1%"
+				(at -5.588 -1.016 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -2214,13 +2212,12 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "303-CQ03SAF3302T5E"
-				(at 2.54 -2.5399 0)
+			(property "Mouser Part Number" "594-MCT06030C3302FP5"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -2345,7 +2342,7 @@
 					(hide yes)
 				)
 			)
-			(property "RS order number" "125-1173"
+			(property "RS order number" ""
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -2354,7 +2351,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "652-CR0603FX-1002ELF"
+			(property "Mouser Part Number" "603-RT0603FRE07619RL"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -4776,7 +4773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "303-0603SAF2492T5E"
+		(property "Mouser Part Number" "594-MCT06030C2492FP5"
 			(at 57.15 30.48 0)
 			(effects
 				(font
@@ -5783,7 +5780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
+		(property "Mouser Part Number" "603-RT0603FRE07619RL"
 			(at 111.76 54.61 0)
 			(effects
 				(font
@@ -6552,7 +6549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "303-CQ03SAF3302T5E"
+		(property "Mouser Part Number" "594-MCT06030C3302FP5"
 			(at 243.84 39.3699 0)
 			(effects
 				(font
