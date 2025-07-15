@@ -35437,9 +35437,9 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TEMP-SENSOR R01"
-		(at 160.5 88.75 90)
-		(layer "User.9")
+	(gr_text "home-automation\ntemperature sensor\nR01"
+		(at 124.9 92.6 0)
+		(layer "F.SilkS")
 		(uuid "d61ac71d-337e-44c9-b763-fe329a3a0080")
 		(effects
 			(font
