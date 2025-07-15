@@ -630,7 +630,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "CONNECT"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
